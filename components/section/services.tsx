@@ -25,12 +25,12 @@ const services: Services[] = [
     title: "Chatwithdoc: Chat App",
     description:
       "Upload a text or pdf document, ask questions and get answers.",
-    url: "/upload",
+    url: "/tool/chatwithdoc",
   },
   {
     title: "Buggy: Bug Fixer",
     description:
       "Buggy is a code error fixer. Fix errors and bugs from your code.",
-    url: "/buggy",
+    url: "/tool/buggy",
   },
 ];

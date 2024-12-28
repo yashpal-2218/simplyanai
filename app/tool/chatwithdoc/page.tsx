@@ -4,7 +4,7 @@ import { Sidebar } from "@/components/layout";
 import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
 import { FileInput } from "@/components/utils/file-input";
-import { sendQuery } from "@/services/chat";
+import { sendQuery } from "@/services/chatwithdoc";
 import { CircleArrowUp, Plus } from "lucide-react";
 import Head from "next/head";
 import { useEffect, useRef, useState } from "react";

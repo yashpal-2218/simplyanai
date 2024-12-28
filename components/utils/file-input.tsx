@@ -2,7 +2,7 @@ import { Input } from "@/components/ui/input";
 import { FilePlus, Loader2 } from "lucide-react";
 import { useState } from "react";
 import { useToast } from "@/components/ui/use-toast";
-import { uploadPDF } from "@/services/chat";
+import { uploadPDF } from "@/services/chatwithdoc";
 import { Progress } from "@/components/ui/progress";
 import { Button } from "@/components/ui/button";
 import * as mime from "mime-types";
