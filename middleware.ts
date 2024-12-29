@@ -1,7 +1,8 @@
 import type { NextRequest } from "next/server";
 import { NextResponse } from "next/server";
 
-const WEB_URL = process.env.WEBSITE_URL;
+// const WEB_URL = process.env.WEBSITE_URL;
+const WEB_URL = "https://simplyanai.vercel.app/";
 
 const url =
   process.env.NODE_ENV === "production" ? WEB_URL : "http://localhost:3000";
@@ -16,10 +17,6 @@ export async function middleware(req: NextRequest) {
   if (uidToken && publicRoutes.includes(pathname)) {
     return NextResponse.redirect(url!);
   }
-
-  // if(!uidToken && pathname === "/api/user/logout"){
-  //   return NextResponse.redirect(url!);
-  // }
 
   // if user is not logged in and try to access protectedRoutes
   if (!uidToken && protectedRoutes.includes(pathname)) {
