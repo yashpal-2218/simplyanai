@@ -1,8 +1,6 @@
 # Simplyanai: AI Apps Collection
 
-A collection of AI-powered web applications designed to make life simpler and more efficient. This project leverages the power of artificial intelligence to automate tasks, enhance productivity, and provide creative tools for users.
-
-Website: [simplyanai](https://simplyanai.vercel.app/)
+A collection of AI-powered web applications designed to make life simpler and more efficient. This project leverages the power of artificial intelligence to automate tasks, enhance productivity, and provide creative tools for users
 
 ## Features
 - **Multiple AI Applications**: Includes a variety of AI apps aimed at different use cases, from productivity tools to creative solutions.
